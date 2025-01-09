@@ -253,7 +253,7 @@ const WelcomeAnimation = () => {
       <Animated.View style={[styles.infoContainer, { opacity: teamOpacity }]}>
         <Text style={styles.sectionTitle}>Team</Text>
         <View style={styles.teamMember}>
-          <Text style={styles.teamName}>Elijah</Text>
+          <Text style={styles.teamName}>Yu-Hong Chen</Text>
           <Text style={styles.teamRole}>Co-Founder</Text>
           <Text style={styles.teamBio}>Elijah is a tech entrepreneur with expertise in computational neuroscience and AI applications. Connect on <Text style={styles.link} onPress={() => Linking.openURL('https://linkedin.com/in/yupingho')}>LinkedIn</Text>.</Text>
         </View>
@@ -264,6 +264,11 @@ const WelcomeAnimation = () => {
         </View>
         <View style={styles.teamMember}>
           <Text style={styles.teamName}>Amarjargal Ayurzana</Text>
+          <Text style={styles.teamRole}>Co-Founder</Text>
+          <Text style={styles.teamBio}>. Connect on <Text style={styles.link} onPress={() => Linking.openURL('https://linkedin.com/in/janedoe')}>LinkedIn</Text>.</Text>
+        </View>
+        <View style={styles.teamMember}>
+          <Text style={styles.teamName}>Clayton Cruse</Text>
           <Text style={styles.teamRole}>Co-Founder</Text>
           <Text style={styles.teamBio}>. Connect on <Text style={styles.link} onPress={() => Linking.openURL('https://linkedin.com/in/janedoe')}>LinkedIn</Text>.</Text>
         </View>
@@ -321,7 +326,7 @@ const WelcomeAnimation = () => {
 
   <Text style={styles.footerText}>© 2025 NeuroFocus. All rights reserved.</Text>
 </Animated.View>
-          
+
     </Animated.ScrollView>
     
   );
